@@ -12,7 +12,7 @@ import { alpha, styled } from "@mui/material/styles";
 import { green } from "@mui/material/colors";
 import HouseIcon from "@mui/icons-material/House";
 import "./office_details.css";
-import { event } from "jquery";
+
 import { useTranslation } from "react-i18next";
 const GreenSwitch = styled(Switch)(({ theme }) => ({
   "& .MuiSwitch-switchBase.Mui-checked": {

@@ -9,7 +9,6 @@ import Reservations from "./dashboard/pages/reservations/Reservations";
 import Calender from "./dashboard/pages/Calender/Calender";
 import RealEstates from "./dashboard/pages/RealEstates/RealEstates";
 import Addads from "./dashboard/pages/add_ads_folder/Addads";
-import Layout from "./website/Layouts/Layout";
 import Prices from "./dashboard/pages/prices/Prices";
 import MainPrices from "./dashboard/pages/prices/MainPrices";
 import Offers from "./dashboard/pages/prices/Offers";
@@ -171,14 +170,7 @@ function App() {
         />
       </Helmet>
       <Routes>
-        <Route
-          index
-          element={
-            <Layout>
-              <Login />
-            </Layout>
-          }
-        />
+        <Route index element={<Login />} />
 
         <Route path="dashboard" element={<DashLayout />}>
           <Route path="home">
