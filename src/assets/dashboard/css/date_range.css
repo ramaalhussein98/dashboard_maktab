@@ -1,0 +1,310 @@
+.DateRangeContainer {
+  position: absolute;
+  left: 0px;
+  top: -16rem;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+  z-index: 9;
+}
+.DateRangeContainerDetailsPage {
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+  z-index: 9;
+  position: absolute;
+  top: -16rem;
+  left: 0px;
+}
+.DateRangeContainerReservationPage {
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+  z-index: 9;
+  position: absolute;
+  top: 0rem;
+  left: 0px;
+}
+.DateRangeContainerstatementsPage {
+  position: absolute;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+  top: initial;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9;
+}
+[lang="ar"] .DateRangeContainerReservationPage {
+  left: auto;
+  right: 0px;
+}
+.DateRangeContainerTransctionPage {
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+  z-index: 9;
+  position: absolute;
+  top: 15rem;
+  left: auto;
+}
+
+/* [lang="en"] .DateRangeContainer {
+  right: 0px !important;
+  left: auto;
+} */
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .DateRangeContainer {
+    /* top: 8rem;
+    left: 50%;
+    transform: translateX(-50%); */
+  }
+  .DateRangeContainerDetailsPage {
+    top: 8rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .DateRangeContainerTransctionPage {
+    left: auto;
+  }
+  .DateRangeContainerReservationPage {
+    left: 0px;
+  }
+  /* [lang="ar"] .DateRangeContainerReservationPage {
+    left: auto;
+    right: 0px;
+  } */
+  [lang="en"] .DateRangeContainer {
+    left: 50% !important;
+    right: auto !important;
+  }
+}
+
+.hide-defined-ranges {
+  display: none;
+}
+
+.rdrDateRangePickerWrapper {
+  /* direction: ltr !important; */
+}
+
+.rdrDefinedRangesWrapper {
+  display: none;
+}
+
+.rdrWeekDay {
+  font-size: 13px;
+  color: rgb(85, 85, 85);
+  font-weight: 700;
+}
+
+.rdrDayDisabled {
+  span {
+    div {
+      color: gray !important;
+      position: relative;
+
+      /* border-bottom: 1px solid gray !important; */
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 19px;
+        left: 50%;
+        width: 10px;
+        height: 1px;
+        background-color: gray;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}
+
+.rdrDays {
+  justify-content: space-between;
+}
+
+.rdrDay {
+  width: 40px;
+  height: 40px;
+  margin: 2px 0px;
+  color: black !important;
+}
+
+.rdrDayToday {
+  /* width: 40px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.54);
+    border-radius: 50%; */
+  /* top: 5px; */
+  /* border: 1px solid rgba(0, 0, 0, 0.54);
+    border-radius: 50%; */
+
+  /* span {
+        color: transparent !important;
+    } */
+}
+
+.rdrStartEdge {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.rdrEndEdge {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  right: 0px !important;
+}
+
+.rdrDateDisplayWrapper {
+  display: none;
+}
+
+.rdrMonth {
+  border-left: 2px solid #eee;
+}
+
+.rdrMonthName {
+  text-align: center;
+  font-weight: 500;
+  color: black;
+  font-size: 24px;
+}
+
+.rdrInRange {
+  color: rgb(255, 182, 182) !important;
+  width: 80px !important;
+  height: 40px !important;
+  margin-right: -20px;
+  margin-left: -20px;
+  z-index: 0;
+}
+
+.rdrMonth {
+  overflow: hidden;
+}
+
+button.rdrDay .rdrInRange + .rdrDayNumber div {
+  color: white !important;
+}
+
+.rdrStartEdge + .rdrDayNumber div {
+  color: white !important;
+}
+
+.rdrEndEdge + .rdrDayNumber div {
+  color: white !important;
+}
+
+/* [lang='ar'] .rdrStartEdge {
+    border-top-right-radius: 1.042em !important;
+    border-bottom-right-radius: 1.042em !important;
+    border-top-left-radius: 0em !important;
+    border-bottom-left-radius: 0em !important;
+    left: 2px;
+}
+
+[lang='ar'] .rdrEndEdge {
+    border-top-left-radius: 1.042em;
+    border-bottom-left-radius: 1.042em;
+    border-top-right-radius: 0em;
+    border-bottom-right-radius: 0em;
+    right: 2px;
+} */
+
+[lang="ar"] .rdrPprevButton {
+  transform: rotate(180deg);
+  position: absolute;
+  top: 85px;
+}
+
+[lang="ar"] .rdrNextButton {
+  transform: rotate(180deg);
+  position: absolute;
+  top: 85px;
+  left: 0px;
+}
+
+.rdrDayNumber {
+  /* height: 40px !important; */
+  border-radius: 50% !important;
+  z-index: 1;
+  margin: auto;
+  display: block;
+
+  div {
+    height: 40px !important;
+    border-radius: 50% !important;
+  }
+}
+
+.rdrDayInPreview {
+  color: gray !important;
+  border-top: 1px gray dashed;
+  border-bottom: 1px gray dashed;
+}
+
+[lang="ar"] .rdrDayInPreview {
+  border-top: 0px !important;
+  border-bottom: 0px !important;
+  color: transparent !important;
+}
+
+.rdrdayHoverd {
+  width: 40px;
+  height: 40px;
+  border-radius: 50% !important;
+}
+
+.rdrDayStartPreview {
+  color: gray !important;
+  width: 40px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 50% !important;
+  position: absolute;
+  /* left: -3px; */
+  background-color: #eee;
+}
+
+[lang="ar"] .rdrDay .rdrDayWeekend .rdrDayStartOfWeek .rdrDayEndOfWeek {
+  border: "0px !important";
+}
+
+.rdrDayEndOfWeek .rdrStartEdge {
+  border-top-right-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+}
+
+.rdrDayEndOfWeek {
+  border-radius: 50% !important;
+}
+
+.rdrDay .rdrDayWeekend .rdrDayStartOfWeek {
+  border-radius: 50% !important;
+}
+
+.rdrStartDayStartOfWeek {
+  border-radius: 50% !important;
+}
+
+.rdDayWeekend {
+  border-radius: 50% !important;
+}
+
+.rdrDayEndPreview {
+  color: gray !important;
+  width: 40px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 50% !important;
+  background-color: #eee;
+  position: absolute;
+  left: -1px;
+}
+
+/* .rdrDayToday .rdrStartEdge.rdrEndEdge {
+    top: 0px !important;
+    position: absolute !important;
+    right: 0px !important;
+    border-radius: 0px !important;
+} */

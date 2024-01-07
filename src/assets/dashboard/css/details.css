@@ -1,0 +1,26 @@
+.d_flex_space_between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Box_ad_num {
+  display: flex;
+  border: 1px solid #cdddd8;
+  border-radius: 25px; /* Removed double quotes and corrected property name */
+  padding: 0.2rem 0.5rem;
+  align-items: center;
+}
+.chat_button {
+  width: 48%;
+  background-color: transparent;
+  border: 1px solid var(--green-color);
+  color: var(--green-color);
+  margin-top: 1rem;
+  border-radius: 15px;
+  padding: 9px 0px;
+  margin: 1rem 3px;
+  .icon_style {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

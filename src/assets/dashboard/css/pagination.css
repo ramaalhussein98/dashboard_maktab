@@ -1,0 +1,12 @@
+.active-page {
+  background-color: var(--main-color) !important;
+  color: #fff;
+  border-color: var(--main-color);
+  border-radius: 50%;
+  min-width: 30px;
+  height: 32px;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}

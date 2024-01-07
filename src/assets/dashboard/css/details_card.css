@@ -1,0 +1,177 @@
+.selectStyle {
+  width: 100%;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-top: 1rem;
+}
+.comfort_title {
+  font-weight: 700;
+  font-size: 1rem;
+}
+.css-13cymwt-control {
+  min-height: 50px !important;
+  border-radius: 11px !important;
+}
+.css-t3ipsp-control {
+  min-height: 50px !important;
+  border-radius: 11px !important;
+}
+
+.card_container {
+  max-width: 433px;
+  border-radius: 20px;
+  border: 1px solid rgba(111, 125, 149, 0.38);
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 20px 64px;
+}
+
+.card_container_Box {
+  line-height: 28px;
+  font-size: 17px;
+  padding: 24px;
+  font-weight: 500;
+  color: rgb(60, 60, 60);
+  align-items: center;
+}
+
+.font_Gray {
+  font-size: 17px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.3);
+}
+.d_flex_justifu {
+  display: flex;
+  justify-content: space-between;
+}
+.font_Black_weight_700 {
+  color: rgb(17, 17, 17);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 5px;
+}
+
+.box_divder {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(234, 237, 242);
+  display: flex;
+}
+
+.box_padding {
+  padding: 20px 20px 28px;
+}
+
+.d_flex_spaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+}
+
+.Box_time {
+  height: 100%;
+  border: 5px solid rgb(221, 223, 238);
+  border-radius: 23px;
+  margin-top: 12px;
+
+  .Box_time_border {
+    border: 1px solid rgb(186, 189, 210);
+    border-radius: 18px;
+    height: 72px;
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+.toggle_task {
+  all: unset;
+  margin-right: 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.btn_choose {
+  border-radius: 12px !important;
+  height: 60px !important;
+  font-size: 17px !important;
+  background-color: black !important;
+  width: 100% !important;
+  color: white !important;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  &:hover {
+    background-color: black !important;
+    color: white !important;
+  }
+}
+.spantitle {
+  font-weight: 600;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+.card_details_Services {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  .div_name_sevices {
+    display: flex;
+
+    align-items: center;
+    width: 100%;
+  }
+}
+.radio-buttons {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.radio-button-container {
+  position: relative;
+}
+
+.radio-button {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.custom-radio {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+  font-size: 14px;
+  min-width: 9rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #ccc;
+  color: gray;
+}
+
+.custom-radio.active {
+  background-color: #000000d4;
+  color: #fff;
+  border-color: #000000d4;
+}

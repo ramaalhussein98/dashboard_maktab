@@ -1,0 +1,98 @@
+.d-flex-justify-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.details_title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.btnBack {
+  background-color: var(--green-color);
+  color: white !important;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 6rem;
+  height: 2.5rem;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.svgIcon {
+  /* transform: rotate(180deg); */
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.btnPrint {
+  background-color: #f29c00;
+  color: white !important;
+  margin-left: 10px;
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  min-width: 6rem;
+  height: 2.5rem;
+}
+.btnSent {
+  background-color: rgba(47, 129, 201, 0.9);
+  color: white !important;
+  margin-left: 10px;
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  min-width: 6rem;
+  height: 2.5rem;
+}
+.cantEditBills {
+  background-color: rgb(244, 190, 190);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: red;
+}
+.logoContainer {
+  text-align: center;
+  .img1 {
+    width: 180px;
+  }
+}
+.green-weight {
+  color: var(--green-color);
+  font-weight: 600;
+}
+.Bills-details-container {
+  background-color: #eee;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.backgroundBox {
+  width: 25%;
+  padding: 5px;
+  margin-top: 5px;
+}
+.Gray1 {
+  background-color: #a1b8c9;
+}
+.GrayLight {
+  background-color: #eee;
+}
+.table-row {
+  background-color: #eee;
+  margin-top: 3rem;
+}
+.payment_container{
+  font-weight: 500;
+  margin-top: 2rem;
+  align-items: center;
+  text-align: center;
+}
+.d_column{
+  display: flex;
+  flex-direction: column;
+}

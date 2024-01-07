@@ -1,0 +1,54 @@
+.LogoConatinerAndThank {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  align-items: center;
+}
+.logoContainer {
+  width: 200px;
+}
+.thankyouConatiner {
+  color: var(--main-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.thankyouConatinerParagarph {
+  font-size: 1rem;
+  text-align: center;
+}
+.informationConatiner {
+  margin-top: 2rem;
+  width: 100%;
+}
+.main_tilte {
+  font-weight: 600;
+  color: var(--main-color);
+  font-size: 20px;
+}
+.border_div {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 1rem;
+}
+.infoDiv {
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+  .span1Info {
+    width: 35%;
+    display: block;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .LogoConatinerAndThank {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 1rem;
+    align-items: center;
+  }
+}

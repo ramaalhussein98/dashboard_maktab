@@ -1,0 +1,48 @@
+.BoxNumberDetails {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.moreNumberBox {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 6rem;
+  left: 0px;
+  text-align: center;
+  margin-top: 0.5rem;
+  background-color: white;
+  z-index: 1;
+}
+.BoxStyle {
+  border: 1px solid #eee;
+  padding: 0rem 2rem;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 0px 5px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.BoxStyleMore {
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.moreBox {
+  position: relative;
+}
+.selectedBox {
+  background-color: var(--green-color);
+  color: white;
+  border: 1px solid #eee;
+}
+
+[lang="ar"] .Switch1 {
+  transform: rotate(180deg) !important;
+}

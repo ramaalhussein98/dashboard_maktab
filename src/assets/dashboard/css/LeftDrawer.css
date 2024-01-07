@@ -1,0 +1,160 @@
+.DrawerWidth {
+  width: 380px !important;
+  /* max-width: 40vw !important; */
+}
+.DrawerTitleDiv {
+  display: flex;
+  flex-direction: row;
+  -moz-box-align: center;
+  align-items: center;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  height: 87px;
+  padding-right: 30px;
+  padding-left: 30px;
+  span {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  button {
+    color: rgba(0, 0, 0, 0.54);
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    width: 30px;
+    height: 30px;
+    border-radius: 12px;
+    background-color: rgba(90, 64, 155, 0.1);
+    font-weight: 300 !important;
+  }
+}
+.font_18_700 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.p_gray_18 {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 5px;
+}
+.input_style {
+  position: relative;
+  border-radius: 12px !important;
+  min-height: 50px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  padding: 8px 0.8rem;
+  outline: rgba(118, 118, 158, 0.05) solid 0.25px;
+  flex-basis: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px;
+}
+.select_style {
+  transition: all 100ms ease-in-out 0s;
+  position: relative;
+  border-radius: 12px !important;
+  min-height: 50px;
+  outline: rgba(118, 118, 158, 0.05) solid 0.25px;
+  flex-basis: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px;
+  background-color: white;
+  width: 100%;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  padding: 13px;
+}
+.percentSpan {
+  position: absolute;
+  left: 13px;
+  top: 22px;
+  font-weight: 700;
+}
+[lang = "en"] .percentSpan {
+  right: 13px;
+  left: auto;
+}
+.dateBtnStyle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  min-height: 50px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 12px;
+  padding: 8px 0.8rem;
+  outline: rgba(118, 118, 158, 0.05) solid 0.25px;
+  flex-basis: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px;
+}
+.div_btns_days {
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 360px;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  .button1 {
+    border-radius: 12px !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px;
+    padding: 0.6rem 5px;
+    width: 70px;
+    margin-bottom: 1rem;
+    margin-left: 8px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-image: none;
+    border-right: 2px solid white !important;
+    color: gray;
+  }
+}
+.selectedDay {
+  background-color: #eee;
+  color: var(--main-color) !important;
+}
+.BoxBtnSubmit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: white;
+  width: 380px !important;
+
+  /* width: 380px;
+  max-width: 40vw; */
+  .submit {
+    color: rgb(255, 255, 255);
+    background-color: var(--green-color);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px,
+      rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+    border-radius: 12px;
+    font-weight: 700;
+    padding: 12px 24px;
+    width: 224px;
+  }
+  .cancel {
+    min-width: 64px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: var(--main-color);
+    border-radius: 12px;
+    font-weight: 700;
+    padding: 12px 24px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .BoxBtnSubmit {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 100% !important;
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+  }
+}

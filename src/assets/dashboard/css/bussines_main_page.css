@@ -1,0 +1,257 @@
+.main_box_bussines {
+  background: linear-gradient(25deg, rgb(112, 7, 7), rgb(255, 70, 70));
+  padding: 6rem;
+  color: white;
+  .welcomeParagraph {
+    font-size: 2.25rem;
+    font-weight: 700;
+  }
+  .add_office_link {
+    background-color: #fed106;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 3rem;
+    display: inline-flex;
+    font-weight: 600;
+    text-shadow: 1px 0px #cd9e9e;
+    color: black;
+  }
+}
+.howadd_container {
+  padding: 6rem;
+  text-align: center;
+  .how_title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--main-color);
+  }
+  .stepimgContainer {
+    position: relative;
+    margin-top: 2rem;
+    .imgStep {
+      /* position: absolute;
+      inset: 0px; */
+      box-sizing: border-box;
+      padding: 0px;
+      border: medium;
+      margin: auto;
+      display: block;
+      width: 100%;
+      height: 100%;
+      min-width: 100%;
+      max-width: 100%;
+      min-height: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+  }
+}
+.maktab_numbers_div {
+  position: relative;
+  margin: auto;
+  border-radius: 32px;
+  overflow: hidden;
+  height: 450px;
+  width: 95%;
+  background: linear-gradient(
+    25deg,
+    rgb(89, 111, 133),
+    rgba(200, 236, 239, 0.88)
+  );
+  text-align: center;
+  .maktab_title {
+    color: #c20000;
+    font-weight: 700;
+    font-size: 2.625rem;
+    margin-top: 3rem;
+  }
+  .numbers_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .internal {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      height: 260px;
+      width: 278px;
+      .white_circle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 96px;
+        height: 96px;
+        background-color: #ffffffe6;
+        border-radius: 50%;
+      }
+
+      .number_title {
+        color: #c20000;
+        font-weight: 900;
+        font-size: 2.8rem;
+        z-index: 2;
+      }
+      .number_subtitle {
+        color: #404040;
+        font-weight: 700;
+        font-size: 1.125rem;
+        z-index: 2;
+      }
+    }
+  }
+}
+.border-white {
+  position: absolute;
+  width: 100%;
+  height: 221px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  /* z-index: -1; */
+  border-radius: 24px;
+  overflow: hidden;
+  .span_white {
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    inset: 0px;
+    .img_white {
+      position: absolute;
+      inset: 0px;
+      box-sizing: border-box;
+      padding: 0px;
+      border: medium;
+      margin: auto;
+      display: block;
+      width: 0px;
+      height: 0px;
+      min-width: 100%;
+      max-width: 100%;
+      min-height: 100%;
+      max-height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+.space_between {
+  justify-content: space-around;
+}
+.mobileAppContainer {
+  height: 500px;
+  width: 95%;
+  margin: auto;
+  margin-top: 2rem;
+  position: relative;
+  .titleMobile {
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    position: absolute;
+    right: 7%;
+    top: 8rem;
+  }
+  .mobile_sub_title {
+    font-size: 1.5rem;
+    color: #fed106;
+    font-weight: 500;
+    position: absolute;
+    right: 7%;
+    top: 17rem;
+  }
+}
+.mobile_bg {
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 32px;
+  z-index: -1;
+}
+.divMobileApps {
+  display: flex;
+  position: absolute;
+  right: 7%;
+  top: 22rem;
+  .img1 {
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .space_between {
+    flex-wrap: wrap;
+  }
+  .main_box_bussines {
+    padding: 2rem 1rem;
+    .welcomeParagraph {
+      font-size: 1.5rem;
+    }
+    .add_office_link {
+      font-size: 15px;
+      padding: 5px 10px;
+      text-align: center;
+    }
+  }
+  .howadd_container {
+    padding: 2rem 1rem;
+    .how_title {
+      font-size: 1.5rem;
+    }
+  }
+  .maktab_numbers_div {
+    height: 520px;
+    .maktab_title {
+      font-size: 2rem;
+      margin-top: 1rem;
+    }
+    .numbers_box {
+      width: 180px;
+      margin-top: 10px;
+      .internal {
+        height: 213px;
+        .number_title {
+          font-size: 2rem;
+        }
+        .number_subtitle {
+          font-size: 1.1rem;
+        }
+        .white_circle {
+          width: 80px;
+          height: 80px;
+        }
+      }
+    }
+    .border-white {
+      height: 180px;
+    }
+  }
+  .mobileAppContainer {
+    .titleMobile {
+      font-size: 2rem;
+      top: 10rem;
+    }
+    .mobile_sub_title {
+      top: 14rem;
+    }
+  }
+  .divMobileApps {
+    top: 18rem;
+    flex-direction: column;
+    .img1 {
+      margin-top: 1rem;
+    }
+  }
+}

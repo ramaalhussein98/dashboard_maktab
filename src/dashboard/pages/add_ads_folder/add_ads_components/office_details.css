@@ -1,0 +1,9 @@
+[lang="ar"] .Switch1 {
+  transform: rotate(180deg) !important;
+}
+.font_bold {
+  font-weight: bold;
+}
+.color_gray {
+  color: gray;
+}

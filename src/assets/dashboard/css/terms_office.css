@@ -1,0 +1,26 @@
+.terms_container {
+  padding: 16px 56px;
+  min-height: calc(100dvh - 80px);
+  background-color: #f6f5f5;
+  line-height: 2.5;
+  margin-bottom: -2rem;
+  .inside_div {
+    margin-inline: 200px;
+    height: calc(-126px + 100vh);
+    overflow: hidden auto;
+    .maktab_title {
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-top: 2rem;
+    }
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .terms_container {
+    padding: 10px;
+    .inside_div {
+      margin-inline: 10px;
+    }
+  }
+}

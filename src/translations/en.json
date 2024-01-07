@@ -1,0 +1,631 @@
+{
+  "currency": "S.R",
+  "cancel": "cancel",
+  "confirm": "confirm",
+  "save": "save",
+  "search": "search",
+  "Rial": "Rial",
+  "day": "day",
+  "total": "Total",
+  "new": "New",
+  "displayMap": "Display Map ",
+  "displayMenu": "Display Menu ",
+  "from": "from",
+  "to": "to",
+  "save": "Save",
+  "Newly_added_office": "Newly added office",
+  "report": {
+    "title": "Submit a complaint",
+    "label": "Reason for complaint",
+    "placeholder": "Enter the complaint",
+    "btn": "Submission",
+    "bt2": "cancel"
+  },
+  "dashboard": {
+    "navLinks": {
+      "link1": "home",
+      "link2": "calendar",
+      "link3": "Requests",
+      "link4": "property",
+      "link5": "money transfers",
+      "link6": "prices"
+    },
+    "sideContent": {
+      "link1": "information",
+      "link2": "Requests",
+      "link3": "weekly performance reports",
+      "link5": "prices",
+      "link6": "money transfers",
+      "link7": "Ministry of Tourism permit",
+      "link8": "unit settings",
+      "link9": " My Informations"
+    },
+    "pricesNav": {
+      "link1": "Basic Prices",
+      "link2": "Offer prices",
+      "link3": "deposit"
+    },
+    "BillsNav": {
+      "link1": " Requests",
+      "link2": "Contracts",
+      "link3": "Finance"
+    },
+    "prices": {
+      "chooseOffice": " Choose Office ",
+      "add_new_offer": "  add new offer",
+      "activation_status": " Activation status",
+      "active": "active",
+      "not_enabled": "not enabled ",
+      "discount_percentage": " discount percentage",
+      "applied_to": "applied to",
+      "offer_days": "offer days",
+      "The_required_deposit": " The required deposit",
+      "addneoffer": "Add a new offer price",
+      "offername": "Offer Name",
+      "notbevisible": "It will not be visible to customers, it will only be visible to you",
+      "writeoffername": "Write Offer Name",
+      "unitoffer": "The units you want the offer to apply to",
+      "discountvalue": "discount value",
+      "percent": "percent",
+      "price": "price",
+      "offerDate": "Offer date",
+      "offerapply": "The offer will apply to the arrival date and not the booking date",
+      "selectdate": "Select the date",
+      "selectunitirst": "Select the units first to be able to choose the date",
+      "offerdays": "The days you want to apply the offer",
+      "all": "All",
+      "hour": "Hour",
+      "daily": "daily",
+      "Monthly": "Monthly",
+      "annual": "Annual"
+    },
+    "homepage": {
+      "titles": {
+        "title1": "sales",
+        "title2": "performance measures",
+        "title3": "the last transfers",
+        "title4": "your unit points",
+        "title5": "latest ratings",
+        "title6": "latest Requests",
+        "title7": "the latest reports",
+        "title8": "upcoming guests"
+      },
+      "Numberoftenants": "Number of tenants",
+      "Numberofcontracts": "Number of contracts",
+      "Youroutstandingbalance": "Your outstanding balance",
+      "Numberofinvoices": "Number of invoices"
+    },
+    "calender": {
+      "price_unit": "R.S",
+      "repair": "repair",
+      "Availability": "Availability",
+      "Ithasbeendetermined": "It has been determined",
+      "Nights": "Nights"
+    },
+    "personal_info": {
+      "img_btn": "add picture",
+      "title1": "Upload logo image",
+      "hint1": "The logo image does not exceed 2MB",
+      "label2": "username",
+      "label3": "company name",
+      "label4": "office name",
+      "label5": "email",
+      "label6": "city",
+      "label7": "neighborhood",
+      "label8": "national ID",
+      "label9": "Commercial registration number",
+      "label10": "phone number",
+      "label11": "Introduction",
+      "label12": "Type of membership",
+      "license": "Do you have a license to practice brokerage and real estate marketing",
+      "license_btn1": "yes",
+      "license_btn2": "no",
+      "license_modal_title1": "Add license link",
+      "license_modal_title2": "Add license number",
+      "license_modal_desc": "Would you like to register with the public authority for real estate to obtain a license Real estate brokerage and marketing",
+      "license_modal_btn1": "Agree",
+      "license_modal_btn2": "later",
+      "main_btn": "Save and continue"
+    },
+    "incoming_orders": {
+      "page_title": "advertisements",
+      "page_title2": "incoming requests",
+      "ad_expanded": {
+        "one": "Preview",
+        "two": "Not shown"
+      },
+      "card1": {
+        "title": "property information",
+        "label1": "name",
+        "label2": "Classification",
+        "label3": "Property link",
+        "ID": "ID"
+      },
+      "card2": {
+        "title": "Property address",
+        "label1": "city",
+        "label2": "neighborhood",
+        "label3": "direction"
+      },
+      "card3": {
+        "title": "Property display status",
+        "label1": "status"
+      },
+      "card4": {
+        "title": "Location on the map"
+      },
+      "card5": {
+        "title": "office description"
+      }
+    },
+    "new_order": {
+      "main_btn1": "next",
+      "main_btn2": "Previous",
+      "main_btn3": "done",
+      "order_info": {
+        "main_title": " information",
+        "title": "Office classification",
+        "desc": "Select the appropriate classification",
+        "label1": "office name",
+        "placeholder1": "Enter the name of your property, which will be shown to guests"
+      }
+    },
+    "order_details": {
+      "title": "property details",
+      "label1": "price",
+      "hint1": "in SAR",
+      "placeholder1": "Please write the price ",
+      "label2": "area",
+      "hint2": "Square meters",
+      "placeholder2": "Please type the area ",
+      "label3": "Width ",
+      "hint3": "in meters",
+      "placeholder3": "Please write the width ",
+      "label4": "height ",
+      "hint4": "in meters",
+      "placeholder4": "Please write the height ",
+      "title2": "Advertiser relationship",
+      "option1": "owner",
+      "option2": "Agent",
+      "option3": "Marketer",
+      "option3_opt1": "Exclusive",
+      "option3_opt2": "not Exclusive"
+    },
+    "property_features": {
+      "title": "Property features",
+      "title2": "Choose all the facilities in your property",
+      "label1": "lounges numbers",
+      "label2": "rooms numbers",
+      "label3": "bathrooms numbers",
+      "label4": "kitchens numbers"
+    },
+    "property_location": {
+      "title": "Confirm the property address",
+      "hint": "Choose the direction of the neighborhood in the city",
+      "label1": "city",
+      "label2": "neighborhood",
+      "label3": "direction",
+      "label4": "property type"
+    },
+    "property_desc": {
+      "title": "Property description",
+      "hint": "Add a distinctive description of your property and what the guest expects to find in it",
+      "desc": "73% of premium hosts (who have high bookings and sales) write a distinctive and clear description",
+      "label": " Write a distinctive description of your property",
+      "placeholder": "Write here",
+      "ex_btn": "sample",
+      "ex_title": "A distinctive description of your property",
+      "ex_desc": "It is located in the north of Riyadh, overlooking Riyadh Boulevard, close to Turki First Street. Designed in comfortable colors, furnished with modern furniture. There is an 85-inch screen and an Intersport subscription to follow matches. It is characterized by its spacious area and complete privacy with smart entry. I wish you a happy stay and God bless my guest."
+    },
+    "property_location_map": {
+      "title": "Property address",
+      "desc": "Please locate the property"
+    },
+    "property_images": {
+      "title": "Property photos",
+      "desc1": "So you can successfully display your property",
+      "desc2": "Add at least 4 clear and attractive photos to the unit",
+      "desc3": "It is forbidden to put a logo or words on the photo",
+      "label1": "video",
+      "label2": "Main display image",
+      "hint1": "A photo is required",
+      "label3": "Property photos",
+      "hint2": "4 photos are required",
+      "btn1": "add video",
+      "btn2": "add image",
+      "btn3": "add images",
+      "edit_btn": "edit main display image",
+      "cut_btn": "cut and save"
+    },
+    "outgoing_requests": {
+      "title": "outgoing requests",
+      "submit_btn": "Save edits",
+      "cancel_btn": "cancel",
+      "edit_btn": "edit",
+      "state_btn": "change",
+      "change_status_title": "confirm",
+      "change_status_desc": "Please review the following data of the property before viewing it (prices, availability, photos, location, facilities, booking conditions) as the correctness of this information is entirely under your responsibility and will be visible to customers .To make reservations and will rely on",
+      "change_status_confirm_msg": "Are you sure about the offer of the property?",
+      "change_status_confirm_btn": "View the property",
+      "change_status_cancel_btn": "Review the data first",
+      "units": "Units of this property"
+    },
+    "users_manage": {
+      "title": "users management",
+      "label": "search by phone number",
+      "button": "Check",
+      "title2": "user information",
+      "title3": "users",
+      "user_info": {
+        "name": "username",
+        "phonenumber": "phone number"
+      },
+      "cancel_btn": "cancel",
+      "add_btn": "add",
+      "yes_btn": "yes",
+      "delete_btn": "delete",
+      "add_confirm_title": "Are you sure about adding the user?",
+      "delete_confirm_title": "Are you sure about deleting the user?"
+    },
+    "sub_page": {
+      "title": "Subscription details",
+      "label1": "Invoice number",
+      "label2": "Name of membership",
+      "label3": "Number of ads",
+      "label4": "Number of temporary upgrade times",
+      "label5": "Subscription start date",
+      "label6": "Subscription end date",
+      "label7": "Print subscription details"
+    },
+    "Offices": {
+      "offices": "Offices",
+      "Addanoffice": "Add an office/unit",
+      "Newproperty": "New property",
+      "unitbelong": "A unit belonging to an existing property",
+      "complete": "Completion of the last property",
+      "incomplete": "You have an incomplete property",
+      "complete": "Complete the construction of your property",
+      "sure": "Are you sure you want to add a new office and delete the incomplete office?",
+      "yesadd": "Yes, add a new office"
+    },
+    "Units": {
+      "incomplete": "You have an incomplete Unit",
+      "complete": "You have an incomplete Unit",
+      "sure": "Are you sure you want to add a new Unit and delete the incomplete Unit?",
+      "yesadd": "Yes, add a new Unit"
+    },
+    "reservation": {
+      "Specifyaperiod": "Specify a period",
+      "search": "Search",
+      "phonenumber": "PhoneNumber",
+      "Reservationstatus": "Reservation status",
+      "Tenantinformation": "Tenant information",
+      "Unitinformation": "Unit information",
+      "Lessorinformation": "Lessor information",
+      "Paymentdata": "Payment data",
+      "Siteinspectordata": "Site Inspector Data",
+      "Procedural": "Procedural",
+      "CreateAcontract": "Create a contract",
+      "CaneclRequest": "Canecl Request",
+      "Identityinformation": "Identity information",
+      "phone": "phone",
+      "location": "Location",
+      "Propertyname": "Property name",
+      "Unit": "Unit",
+      "bookingdate": "booking date",
+      "Expirydate": "Expiry date",
+      "Rentalterm": "Rental term",
+      "paymentmethod": "payment method",
+      "paidup": "paid up",
+      "cashRemid": "The remaining amount of the period you reserved"
+    },
+    "transactions": {
+      "Moneytransfers": "Money transfers",
+      "Numberremittance": "Number of remittance voucher",
+      "dateofstarting": "date of starting",
+      "createddate": "Create Date",
+      "transferway": "Conversion method",
+      "Mobiletohim": " Mobile number transferred to him",
+      "Numberofrequests": "Number of requests",
+      "Transferfees": "Transfer fees",
+      "Entitlementamount": "Entitlement amount",
+      "Netamounttransferred": "Net amount transferred",
+      "Transferstatus": "Transfer status",
+      "Specifyaperiod": "Specify a period",
+      "Beginningoftheperiod": "Beginning of the period",
+      "Endoftheperiod": "End of period",
+      "Searchbyreservationnumber": "Search by reservation number",
+      "coming": "coming",
+      "outlet": "outlet"
+    },
+    "Invoices": {
+      "Invoices": "Invoices",
+      "Billingstatement": "Billing statement",
+      "ReleaseDate": "Release Date",
+      "theamount": "the amount",
+      "Viewdetails": "View details"
+    },
+    "Accountstatements": {
+      "Accountstatements": "Account statements",
+      "Latestaccountstatements": "Latest account statements",
+      "Monthly": "Monthly account statement",
+      "balancefirstduration": "The balance of the first duration",
+      "balancelastduration": "The balance of the last duration",
+      "date": "date",
+      "Statement": "Statement",
+      "Balance": "Balance",
+      "Totalaccountstatement": "Total account statement"
+    },
+    "howReaviceMoney": {
+      "reciveMoney": "How you receive the money",
+      "timerevive": "Method and duration of receiving funds",
+      "receivefunds": "How to receive funds",
+      "add": "add",
+      "receivingnotadd": "The method for receiving funds has not been added yet",
+      "addmethod": "Add a method for receiving funds",
+      "Chooseyour": "Choose your preferred method to receive funds",
+      "downaladStc": "Download the stc pay application on your mobile phone",
+      "reagister": "Register a new registration using the mobile number to which you would like us to transfer funds.",
+      "active": "Activate from here the mobile number registered with stc pay to which you would like us to transfer funds.",
+      "STCPayfunds": "STC Pay funds transfer policy",
+      "read": "I have read and reviewed the new policy",
+      "Activatethemobile": "Activate the mobile number",
+      "Banktransfer": "Bank transfer",
+      "Bankname": "Bank name",
+      "chooseBank": "Choose Bank",
+      "AccountHoldersName": "Account Holder's Name",
+      "writeAccountHoldersName": "Write Account Holder's Name",
+      "IBANnumber": "IBAN number",
+      "writeIBANnumber": "Write IBAN number"
+    },
+    "contarcts": {
+      "numbercontracts": "Total number of contracts",
+      "options": "Options",
+      "startdate": "Start date",
+      "enddate": "End Date",
+      "recname": "The recipient's name",
+      "residential": "residential"
+    },
+    "finnace": {
+      "dispaly": "Display",
+      "availablecontracts": "Available Contracts",
+      "Contractinvoices": "Contract invoices",
+      "AllContarcts": "All Contarcts",
+      "contractsNumber": "Contarcts Number",
+      "listbills": "List of bills and installment information",
+      "specificdate": "specified date of payment",
+      "Totalbills": "Total bills",
+      "Dueinvoices": "Due Invoices",
+      "Billingnumber": "Billing number",
+      "makepayment": "Make a payment",
+      "requestrecipt": "Request for a receipt",
+      "showall": "Show all installments",
+      "Hidepremiums": "Hide premiums"
+    },
+    "modalmoney": {
+      "sendrecipt": "Send a receipt request",
+      "totalunpaid": "Total unpaid amount",
+      "Paymentamount": "Payment amount",
+      "requsetto": "Requset To",
+      "notes": "notes",
+      "pleaseselect": "please select"
+    },
+    "InstantPayment": {
+      "Instantpayment": "Instant payment",
+      "Invoicesummary": "Invoice summary",
+      "Postpaid": "Postpaid",
+      "Client": "Client",
+      "totalamount": "total amount",
+      "Remainingamount": "Remaining amount",
+      "amountpaid": "The amount paid",
+      "deservedamount": "deserved amount",
+      "duedate": "due date",
+      "amountpaid": "The amount to be paid",
+      "editvalue": "Edit Value"
+    },
+    "contarctDetails": {
+      "Residentialcontract": "Residential contract",
+      "downalconpy": "Download a copy of the contract",
+      "Contractinformation": "Contract information",
+      "generalinfo": "General information and actual situation",
+      "TypeofContract": "Type of Contract",
+      "Rentalperiod": "Rental period",
+      "Theremainingperiod": "The remaining period",
+      "Totalcontractvalue": "Total contract value",
+      "Officedetails": "Office details",
+      "infoOddices": "Information about selected offices",
+      "Officeconstructiondate": "Office construction date",
+      "Partiescontract": "Parties to the contract",
+      "info": "Information about the landlord and tenant, whether they are individuals or entities"
+    },
+    "top_nav": {
+      "title1": "dashboard",
+      "title2": "sign out"
+    },
+    "contract": {
+      "Createacontract": "Create a contract",
+      "contractStatus": "Contract Status",
+      "LessorIDnumber": "Lessor ID number:",
+      "Lessorname": "Lessor's name",
+      "TenantIDnumber": "Tenant ID number",
+      "Tenantname": "Tenant name",
+      "Ownershipdocumentnumber": "Ownership document number",
+      "Chooseamodel": "Choose a model",
+      "Pleasechoose": "Please choose",
+      "Attachthebasiccontract": "Attach the basic contract",
+      "Pleaseselect": "Please select an ad type",
+      "addLicensed": "Add a licensed advertisement",
+      "orderdata": "Order data is developed by licensed brokers only",
+      "addmarkting": "Add a marketing request",
+      "licensenumber": "I have a license number to advertise",
+      "Backtomainpage": "Back to main page",
+      "based": "Based on the real estate brokerage system, it is not possible to advertise on real estate platforms unless there is an advertising license",
+      "addadverst": "What is an advertising license and how to obtain it?",
+      "Advertnumber": "Advertising license number",
+      "plzenter": "Please enter a valid advertising license number starting with the number 7",
+      "groundfloor": "ground floor",
+      "Peaks": "Peaks",
+      "more": "more"
+    },
+    "unitsetting": {
+      "Rentalterms": "Rental terms",
+      "thereis": "There is no need to request a refundable deposit, as the Tenant Protection Program will compensate you in advance Rare cases in which a guest causes damage",
+      "require": "Do you require a refundable deposit from renters upon arrival?",
+      "nodontask": "No, I don't ask",
+      "YesAsk": "Yes Ask",
+      "ref": "Refundable insurance amount",
+      "refundable": "The refundable deposit is paid by renters upon arrival and refunded upon departure After ensuring the safety of the property",
+      "havecondition": "Do you have other conditions for booking?"
+    }
+  },
+  "details_page": {
+    "ad_num": "advertisement number",
+    "ad_date": "advertisement date",
+    "unit_area": "Unit area",
+    "fav_button": "add to favourite",
+    "share_button": "share",
+    "facebook_share": "share to facebook",
+    "whats_share": "shate to WhatsApp",
+    "twitter_share": "share to twitter",
+    "copy_url": "copy to clipboard",
+    "reservation": "reservation",
+    "images_btns": {
+      "show_more": "show all images",
+      "show_vids": "show video"
+    },
+    "details_title": "Description",
+    "similer_sec_title": "similer advertisements",
+    "xs_more": "show more",
+    "xs_less": "show less",
+    "details_tabs": {
+      "specifications_and_features": " features",
+      "features": " features",
+      "location_and_map": "location and map",
+      "location": "location",
+      "guest_reviews": "Advertiser reviews",
+      "reviews": "reviews",
+      "specifications_and_features_tab": {
+        "bedrooms": "bedrooms",
+        "living_rooms": "living rooms",
+        "bathrooms_nums": "number of bathrooms",
+        "area": "area",
+        "floor": "floor",
+        "last_update": "last update"
+      },
+      "location_and_map_tab": {
+        "desc": "The exact location information appears after booking confirmation"
+      },
+      "guest_reviews_tab": {
+        "comment_title": "leave a comment",
+        "comment_desc": "The email will not be published specific required fields",
+        "placeholder1": "comment title",
+        "placeholder2": "comment...",
+        "comment_btn": "send comment",
+        "review_title": "give a review"
+      },
+      "calender_card": {
+        "booking_details": "Booking Details",
+        "change_the_date": "Change The Date",
+        "date_of_arrival": "Date Of Arrival",
+        "departure_date": "Departure Date",
+        "time_of_arrival": "Time Of Arrival",
+        "departure_time": "Departure Time",
+        "service_fees": "Service fees",
+        "total": "Total",
+        "choose": "choose",
+        "change_date": "You can modify the date",
+        "pay_now": "You will pay now",
+        "Bookingsummary": "Booking summary",
+        "Servicefees": "Service fees",
+        "Discountcode": "Discount code",
+        "apply": "Apply",
+        "Completereservation": "Complete reservation",
+        "help_us": "This helps us operate our platform and provide services such as 24/7 support. Inclusive of value-added tax."
+      }
+    },
+    "details_card": {
+      "currency": "SAR",
+      "advertiser_name": "advertisername",
+      "advertiser_broker": "advertiser broker",
+      "ad_reference_number": "advertisement reference number",
+      "whatsapp_button": "whatsapp",
+      "phone_button": "call",
+      "report_button": "report",
+      "chat_button": "chat"
+    },
+    "time": {
+      "one_hour_ago": "1 hour ago",
+      "two_hours_ago": "2 hours ago",
+      "hours_ago": "{{count}} hours ago",
+      "minutes_ago": "{{count}} minute ago",
+      "days_ago": " {{count}} days ago",
+
+      "seconds_ago": " {{count}} secound ago",
+      "just_now": "now"
+    }
+  },
+  "home": {
+    "FilterModal": {
+      "Filter_Factors": "Filter Factors",
+      "price_range": " Price Range",
+      "rooms": "Rooms",
+      "office_type": "Office Type",
+      "Features": "Features",
+      "Accessibility_Features": "Accessibility Features",
+      "meansofcomfort": "means of comfort",
+      "delete_all": " Delete All",
+      "show_all": " Show All",
+      "Bathrooms": "Bathrooms",
+      "Meetings": "Meetings"
+    }
+  },
+  "loginmodal": {
+    "title": "welcome!",
+    "title_two": "complete the code to",
+    "title_three": "Please enter the code to continue",
+    "choose_login_method": "choose way to recive code",
+    "sms_option": "SMS Message",
+    "whatsapp_option": "Whats App",
+    "desc": "Enter the mobile phone number associated with WhatsApp to create an account or log in.",
+    "input_label": "Your mobile phone number",
+    "submit_btn": "continue",
+    "submit_btn_2": "check",
+    "hint": "We will send a message to the entered Number containing a code to continue...",
+    "bold_hint": "Make sure you entered your number correctly.",
+    "back_btn": "back",
+    "seconds": "second",
+    "message": "Send the verification code again",
+    "sended_message": "We sent the code by message to the number",
+    "error_message": "The verification code is incorrect. Please try again."
+  },
+  "topNav": {
+    "Addyouroffice": "Add your office on MAKTAB",
+    "controlPanel": " control Panel",
+    "Login": "Log In"
+  },
+  "paymentpage": {
+    "Reviewandpayment": "Review and payment",
+    "Cancellationandreturnspolicy": "Cancellation and returns policy",
+    "youCanCancel": "You can cancel or postpone your reservation for free before the date",
+    "Bookingpolicies": "Booking policies and conditions",
+    "bookingconditions": "Booking conditions (by the host)",
+    "Cleaningtheplace": "Cleaning the place after leaving and maintaining the property",
+    "payingoff": "paying off",
+    "Paybycard": "Pay by card",
+    "Paythefullamount": "Pay the full amount",
+    "Paynow": "Pay now",
+    "Reviewreservation": "Review your reservation"
+  },
+  "creditCard": {
+    "cardNumber": "Card Number ",
+    "expireddate": "Expired date",
+    "cardname": "Card holder's name"
+  },
+  "about_us": {
+    "aboutus": "About Us",
+    "tryhostig": "Try hosting through",
+    "addoffice": "Add your office, we will help you step by step.",
+    "reg_office": "Register your office",
+    "maktab": "Maktab"
+  }
+}

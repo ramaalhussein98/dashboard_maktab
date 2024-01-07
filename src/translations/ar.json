@@ -1,0 +1,630 @@
+{
+  "currency": "ر.س",
+  "cancel": "الغاء",
+  "confirm": "تأكيد",
+  "search": "بحث",
+  "Rial": "ريال",
+  "day": "يوم",
+  "total": "الإجمالي",
+  "new": "جديد",
+  "displayMap": "عرض الخريطة",
+  "displayMenu": "عرض القائمة",
+  "from": "من",
+  "to": "إلى",
+  "save": "حفظ",
+  "Newly_added_office": "مكتب مضاف حديثاً",
+  "report": {
+    "title": "تقديم شكوى",
+    "label": "سبب الشكوى",
+    "placeholder": "ادخل الشكوى",
+    "btn": "تقديم",
+    "bt2": "الغاء"
+  },
+  "dashboard": {
+    "navLinks": {
+      "link1": "الرئيسية",
+      "link2": "التقويم",
+      "link3": "الطلبات",
+      "link4": "العقار",
+      "link5": "المعاملات المالية",
+      "link6": "الأسعار"
+    },
+    "sideContent": {
+      "link1": "لوحة المعلومات",
+      "link2": "الطلبات",
+      "link3": "تقارير الأداء",
+      "link5": "الأسعار",
+      "link6": "الحوالات المالية",
+      "link7": "العقود والفواتير",
+      "link8": "إعدادات الوحدة",
+      "link9": " معلوماتي"
+    },
+    "pricesNav": {
+      "link1": "الأسعار الأساسية ",
+      "link2": "أسعار العروض",
+      "link3": "العربون"
+    },
+    "BillsNav": {
+      "link1": " الطلبات ",
+      "link2": " العقود",
+      "link3": "المالية"
+    },
+    "prices": {
+      "chooseOffice": " أختر العقار",
+      "add_new_offer": "أضافة عرض جديد",
+      "activation_status": "حالة التفعيل",
+      "active": "مفعل",
+      "not_enabled": "غير مفعل",
+      "discount_percentage": "نسبة الخصم",
+      "applied_to": "يطبق على ",
+      "offer_days": "أيام العرض ",
+      "The_required_deposit": "العربون المطلوب",
+      "addneoffer": "إضافة سعر عرض جديد",
+      "offername": "اسم العرض",
+      "notbevisible": "لن يكون ظاهر للعملاء سيكون ظاهراً لك فقط",
+      "writeoffername": "اكتب اسم العرض",
+      "unitoffer": "الوحدات التي تريد أن يطبق عليها العرض",
+      "discountvalue": "قيمة الخصم",
+      "percent": "نسبة مئوية",
+      "price": "سعر ثابت",
+      "offerDate": "تاريخ تطبيق العرض",
+      "offerapply": "العرض سيطبق على تاريخ الوصول وليس تاريخ الحجز",
+      "selectdate": "حدد التاريخ",
+      "selectunitirst": "اختر الوحدات أولاً لتستطيع اختيار التاريخ",
+      "offerdays": "  الأيام التي تريد تطبيق العرض فيها ",
+      "all": "الكل",
+      "hour": "ساعة",
+      "daily": "يومي",
+      "Monthly": "شهري",
+      "annual": "سنوي"
+    },
+    "homepage": {
+      "titles": {
+        "title1": "المبيعات",
+        "title2": "تقارير الأداء",
+        "title3": "آخر الحوالات",
+        "title4": "نقاط وحدتك",
+        "title5": "آخر التقييمات",
+        "title6": "آخر الطلبات",
+        "title7": "آخر البلاغات",
+        "title8": " المستأجرين القادمين"
+      },
+      "Numberoftenants": "عدد المستأجرين",
+      "Numberofcontracts": "عدد العقود",
+      "Youroutstandingbalance": "رصيدك المستحق",
+      "Numberofinvoices": "عدد الفواتير"
+    },
+    "calender": {
+      "price_unit": "ر.س",
+      "repair": "إشغال",
+      "Availability": "إتاحة",
+      "Ithasbeendetermined": "تم تحديد",
+      "Nights": "ليالي"
+    },
+    "personal_info": {
+      "img_btn": "إضافة صورة",
+      "title1": "رفع صورة الشعار",
+      "hint1": "صورة الشعار لا تتجاوز 2MB",
+      "label2": "اسم المستخدم",
+      "label3": "اسم الشركة",
+      "label4": "اسم المكتب",
+      "label5": "الايميل",
+      "label6": "المدينة",
+      "label7": "الحي",
+      "label8": "الرقم الهوية / الإقامة",
+      "label9": "رقم السجل التجاري",
+      "label10": "رقم الهاتف المحمول",
+      "label11": "نبذة",
+      "label12": "نوع الحساب",
+      "license": "هل لديك ترخيص لممارسة الوساطة والتسويق العقاري",
+      "license_btn1": "نعم",
+      "license_btn2": "لا",
+      "license_modal_title1": "اضافة رابط الرخصة",
+      "license_modal_title2": "اضافة رقم الرخصة",
+      "license_modal_desc": "هل ترغب في التسجيل لدى الهيئة العامة للعقارات للحصول على ترخيص للوساطة العقارية والتسويق",
+      "license_modal_btn1": "أوافق",
+      "license_modal_btn2": "لاحقا",
+      "main_btn": "حفظ واستمرار"
+    },
+    "incoming_orders": {
+      "page_title": "الاعلانات",
+      "page_title2": "الطلبات الواردة",
+      "ad_expanded": {
+        "one": "معاينة",
+        "two": "غير معروضة"
+      },
+      "card1": {
+        "title": "معلومات العقار",
+        "label1": "الاسم",
+        "label2": "التصنيف",
+        "label3": "رابط العقار",
+        "ID": "معرف"
+      },
+      "card2": {
+        "title": "موقع العقار",
+        "label1": "المدينة",
+        "label2": "الحي",
+        "label3": "الاتجاه"
+      },
+      "card3": {
+        "title": "حالة عرض العقار",
+        "label1": "الحالة"
+      },
+      "card4": {
+        "title": "الموقع على الخريطة"
+      },
+      "card5": {
+        "title": "وصف المكتب"
+      }
+    },
+    "new_order": {
+      "main_btn1": "التالي",
+      "main_btn2": "السابق",
+      "main_btn3": "ارسال",
+      "order_info": {
+        "main_title": "معلومات المكتب",
+        "title": "تصنيف مكتبك",
+        "desc": "حدد التصنيف المناسب",
+        "label1": "اسم مكتبك",
+        "placeholder1": "ادخل اسم عقارك الذي سيظهر للضيوف"
+      }
+    },
+    "order_details": {
+      "title": "معلومات العقار",
+      "label1": "السعر",
+      "hint1": "ريال سعودي",
+      "placeholder1": "الرجاء كتابة السعر ",
+      "label2": "المساحة",
+      "hint2": "متر مربع",
+      "placeholder2": "الرجاء كتابة السعر ",
+      "label3": "العرض ",
+      "hint3": "متر",
+      "placeholder3": "الرجاء كتابة العرض ",
+      "label4": "الطول ",
+      "hint4": "متر",
+      "placeholder4": "الرجاء كتابة الطول ",
+      "title2": "علاقة المعلن",
+      "option1": "مالك",
+      "option2": "وكيل",
+      "option3": "مسوق",
+      "option3_opt1": "حصري",
+      "option3_opt2": "غير حصري"
+    },
+    "property_features": {
+      "title": "مميزات العقار",
+      "title2": "اختر كل المرافق الموجودة في عقارك",
+      "label1": "عدد الصالات",
+      "label2": "عدد الغرف",
+      "label3": "عدد الحمامات",
+      "label4": "عدد المطابخ"
+    },
+    "property_location": {
+      "title": "تأكيد عنوان العقار",
+      "hint": "اختر اتجاه الحي في المدينة",
+      "label1": "المدينة",
+      "label2": "الحي",
+      "label3": "الاتجاه"
+    },
+    "property_desc": {
+      "title": "وصف المكتب",
+      "hint": "أضف وصف مميز لعقارك و ايش يتوقع الضيف أن يجد فيه",
+      "desc": " 73% من المضيفين المميزين (الذين لديهم حجوزات ومبيعات عالية) يكتبوا وصف  مميز و واضح",
+      "label": " أكتب وصف مميز لعقارك",
+      "placeholder": "اكتب هنا",
+      "ex_btn": "مثال",
+      "ex_title": "وصف مميز لعقارك",
+      "ex_desc": "تقع في شمال الرياض مطلة على بوليفارد الرياض قريبة من شارع تركي الأول. صُممت بألوان مريحة مؤثثة بأثاث مودرن. يوجد شاشة 85 بوصة  واشتراك بين سبورت لمتابعة المباريات. تتميز بمساحتها الواسعة وخصوصية تامة بدخول ذكي. أتمنى لك إقامة سعيدة و حياك الله ضيفي."
+    },
+    "property_location_map": {
+      "title": "عنوان العقار",
+      "desc": "يرجى تحديد موقع العقار"
+    },
+    "property_images": {
+      "title": "صور العقار",
+      "desc1": "حتى تعرض عقارك بنجاح",
+      "desc2": "أضف ما لا يقل عن 4 صور واضحة و جذابة للوحدة",
+      "desc3": "يمنع وضع شعار أو كلمات على الصورة",
+      "label1": "فيديو",
+      "label2": "صورة العرض الرئيسية",
+      "hint1": "مطلوب صورة",
+      "label3": "صور العقار",
+      "hint2": "مطلوب 4 صور",
+      "btn1": "أضف فيديو",
+      "btn2": "أضف صورة",
+      "btn3": "أضف الصور",
+      "edit_btn": "تعديل صورة العرض الرئيسية",
+      "cut_btn": "قص وحفظ المحدد"
+    },
+    "outgoing_requests": {
+      "title": "الطلبات الصادرة",
+      "submit_btn": "حفظ التعديلات",
+      "cancel_btn": "الغاء",
+      "edit_btn": "تعديل",
+      "state_btn": "تغيير",
+      "change_status_title": "تأكيد",
+      "change_status_desc": "الرجاء مراجعة البيانات التالية للعقار قبل عرضه (الأسعار، التوافر، الصور، الموقع، المرافق، شروط الحجز) حيث أن صحة هذه المعلومات تقع تحت مسؤوليتك بشكل كامل، وستكون ظاهرة للعملاء .لإجراء الحجوزات وسيعتمد عليها",
+      "change_status_confirm_msg": "هل أنت متأكد من عرض العقار ؟",
+      "change_status_confirm_btn": "أعرض العقار",
+      "change_status_cancel_btn": "راجع البيانات أولا",
+      "units": "وحدات هذا العقار"
+    },
+    "users_manage": {
+      "title": "إدارة المستخدمين",
+      "label": "ابحث عن طريق رقم الهاتف",
+      "button": "تحقق",
+      "title2": "معلومات المستخدم",
+      "title3": "المستخدمين",
+      "user_info": {
+        "name": "اسم المستخدم",
+        "phonenumber": "رقم الهاتف"
+      },
+      "cancel_btn": "الغاء",
+      "yes_btn": "نعم",
+      "add_btn": "اضافة",
+      "delete_btn": "حذف",
+      "add_confirm_title": "هل أنت متأكد من أضافة المستخدم؟",
+      "delete_confirm_title": "هل أنت متأكد من حذف المستخدم؟"
+    },
+    "sub_page": {
+      "title": "تفاصيل الاشتراك",
+      "label1": "رقم الفاتورة",
+      "label2": "اسم العضوية",
+      "label3": "عدد الأعلانات",
+      "label4": "عدد مرات الترقية المؤقتة",
+      "label5": "تاريخ بداية الأشتراك",
+      "label6": "تاريخ نهاية الأشتراك",
+      "label7": "طباعة تفاصيل الاشتراك"
+    },
+    "Offices": {
+      "offices": "المكاتب",
+      "Addanoffice": "إضافة مكتب / وحدة",
+      "Newproperty": "عقار جديد",
+      "unitbelong": " وحدة تابعة لعقار حالي",
+      "complete": "استكمال اخر عقار",
+      "incomplete": "لديك عقار غير مكتمل",
+      "complete": "استكمل انشاء عقارك",
+      "sure": "هل انت متأكد من إضافة مكتب جديد و حذف المكتب الغير مكتمل؟",
+      "yesadd": " نعم ، أضف مكتب جديد"
+    },
+    "Units": {
+      "incomplete": "لديك وحدة غير مكتملة",
+      "complete": "استكمل انشاء وحدتك",
+      "sure": "هل انت متأكد من إضافة وحدة جديدة و حذف الوحدة الغير مكتمل؟",
+      "yesadd": "نعم ، أضف وحدة جديد"
+    },
+    "reservation": {
+      "Specifyaperiod": "تحديد فترة",
+      "search": "البحث",
+      "phonenumber": "رقم الجوال",
+      "Reservationstatus": "حالة الحجز",
+      "Tenantinformation": "معلومات المستأجر",
+      "Unitinformation": "معلومات الوحدة",
+      "Lessorinformation": "معلومات المؤجر",
+      "Paymentdata": "بيانات الدفع",
+      "Siteinspectordata": "بيانات معاين الموقع",
+      "Procedural": "الإجرائيات",
+      "CreateAcontract": "إنشاء عقد",
+      "CaneclRequest": "إلغاء عقد",
+      "Identityinformation": "معلومات الهوية",
+      "phone": "الجوال",
+      "location": "الموقع",
+      "Propertyname": "اسم العقار",
+      "Unit": "الوحدة",
+      "bookingdate": "تاريخ الحجز",
+      "Expirydate": "تاريخ الانتهاء",
+      "Rentalterm": "مدة الإيجار ",
+      "paymentmethod": "طريقة الدفع",
+      "paidup": "المدفوع",
+      "cashRemid": "المبلغ المتبقي من المدة التي حجزتها"
+    },
+    "transactions": {
+      "Moneytransfers": "الحوالات المالية",
+      "Numberremittance": "رقم الحوالة",
+      "dateofstarting": "تاريخ التنفيذ ",
+      "createddate": "تاريخ الإنشاء",
+      "transferway": "طريقة التحويل",
+      "Mobiletohim": "رقم الجوال محول له",
+      "Numberofrequests": "عدد الطلبات ",
+      "Transferfees": "رسوم التحويل",
+      "Entitlementamount": "مبلغ الاستحقاق",
+      "Netamounttransferred": "صافي المبلغ المحول",
+      "Transferstatus": "حالة الحوالة",
+      "Specifyaperiod": "تحديد فترة",
+      "Beginningoftheperiod": "بداية الفترة",
+      "Endoftheperiod": "نهاية الفترة",
+      "Searchbyreservationnumber": "ابحث برقم الحجز",
+      "coming": "قادم",
+      "outlet": "منفذ"
+    },
+    "Invoices": {
+      "Invoices": "الفواتير",
+      "Billingstatement": "كشف الفواتير",
+      "ReleaseDate": "تاريخ الإصدار",
+      "theamount": "المبلغ الإجمالي",
+      "Viewdetails": "عرض التفاصيل"
+    },
+    "Accountstatements": {
+      "Accountstatements": "كشوف الحساب",
+      "Latestaccountstatements": "اخر كشوفات الحساب",
+      "Monthly": "كشف حساب شهر",
+      "balancefirstduration": "رصيد أول المدة",
+      "balancelastduration": "رصيد أخر المدة",
+      "date": "التاريخ",
+      "Statement": "البيان",
+      "Balance": "الرصيد المتبقي",
+      "Totalaccountstatement": " إجمالي كشف الحساب"
+    },
+    "howReaviceMoney": {
+      "reciveMoney": "طريقة استلامك المبالغ",
+      "timerevive": "طريقة ومدة استلام المبالغ",
+      "receivefunds": "طريقة استلام المبالغ",
+      "add": "إضافة",
+      "receivingnotadd": "لم تتم إضافة طريقة استلامك للمبالغ حتى الان",
+      "addmethod": "إضافة طريقة استلام المبالغ",
+      "Chooseyour": "اختر الطريقة المفضلة لديك لاستلام المبالغ المالية",
+      "downaladStc": "حمل تطبيق stc pay على جوالك",
+      "reagister": "سجل تسجيل جديد بإستخدام رقم الجوال الذي ترغب بأن نحول له المبالغ المالية",
+      "active": "فعّل من هنا رقم الجوال المسجل لدى stc pay و الذي ترغب بأن نحول له المبالغ المالية",
+      "STCPayfunds": "سياسة تحويل المبالغ بواسطة STC Pay",
+      "read": "لقد قرأت واطلعت على السياسة الجديدة",
+      "Activatethemobile": "فعّل رقم الجوال",
+      "Banktransfer": "تحويل بنكي",
+      "Bankname": "اسم البنك",
+      "chooseBank": "اختر البنك",
+      "AccountHoldersName": "اسم صاحب الحساب",
+      "writeAccountHoldersName": "اكتب اسم صاحب الحساب",
+      "IBANnumber": "رقم الآيبان ",
+      "writeIBANnumber": " اكتب رقم الآيبان"
+    },
+    "contarcts": {
+      "numbercontracts": "إجمالي عدد العقود",
+      "options": "الخيارات",
+      "startdate": "تاريخ البدء",
+      "enddate": "تاريخ الانتهاء",
+      "recname": "اسم المستلم",
+      "residential": "سكني"
+    },
+    "finnace": {
+      "dispaly": "عرض",
+      "availablecontracts": "عقد متاح",
+      "Contractinvoices": "فواتير العقود",
+      "AllContarcts": "جميع العقد",
+      "contractsNumber": "رقم العقد",
+      "listbills": "قائمة الفواتير ومعلومات الأقساط",
+      "specificdate": "التاريخ المحدد للدفع ",
+      "Totalbills": "إجمالي الفواتير",
+      "Dueinvoices": "الفواتير المستحقة",
+      "Billingnumber": " رقم الفواتير",
+      "makepayment": " إجراء دفعة",
+      "requestrecipt": "طلب سند قبض",
+      "showall": "إظهار جميع الأقساط",
+      "Hidepremiums": "إخفاء الأقساط"
+    },
+    "modalmoney": {
+      "sendrecipt": " إرسال طلب إيصال استلام ",
+      "totalunpaid": "إجمالي المبلغ غير المسدد",
+      "Paymentamount": "مبلغ الدفع",
+      "requsetto": "طلب إلى",
+      "notes": "الملاحظات",
+      "pleaseselect": "يرجى الاختيار"
+    },
+    "InstantPayment": {
+      "Instantpayment": "الدفع اللحظي",
+      "Invoicesummary": "ملخص الفاتورة",
+      "Postpaid": "المفوتر",
+      "Client": "العميل",
+      "totalamount": "المبلغ الكلي",
+      "Remainingamount": "المبلغ المتبقي",
+      "amountpaid": "المبلغ المدفوع",
+      "deservedamount": "المبلغ المستحق",
+      "duedate": "تاريخ الاستحقاق",
+      "amountpaid": "المبلغ المراد دفعه",
+      "editvalue": "تعديل القيمة"
+    },
+    "contarctDetails": {
+      "Residentialcontract": "عقد سكني",
+      "downalconpy": "تحميل نسخة العقد",
+      "Contractinformation": " معلومات العقد",
+      "generalinfo": "معلومات عامة والحالة الفعلية",
+      "TypeofContract": "  نوع العقد",
+      "Rentalperiod": "فترة الإيجار",
+      "Theremainingperiod": " الفترة المتبقية",
+      "Totalcontractvalue": " إجمالي قيمة العقد",
+      "Officedetails": "تفاصيل المكتب",
+      "infoOddices": " معلومات عن المكاتب المختارة",
+      "Officeconstructiondate": "تاريخ بناء المكتب",
+      "Partiescontract": " أطراف العقد",
+      "info": "Information about the landlord and tenant, whether they are individuals or entities"
+    },
+    "top_nav": {
+      "title1": "لوحة التحكم",
+      "title2": "تسجيل الخروج"
+    },
+    "contract": {
+      "Createacontract": "إنشاء عقد",
+      "contractStatus": "حالة العقد",
+      "LessorIDnumber": " رقم هوية المؤجر",
+      "Lessorname": "اسم المؤجر",
+      "TenantIDnumber": "رقم هوية المستأجر ",
+      "Tenantname": "اسم المستأجر",
+      "Ownershipdocumentnumber": "رقم وثقية الملكية",
+      "Chooseamodel": " اختر نموذج",
+      "Pleasechoose": " يرجى الاختيار",
+      "Attachthebasiccontract": "أرفاق العقد الأساسي",
+      "Pleaseselect": "يرجى اختيار نوع الإعلان",
+      "addLicensed": "إضافة أعلان مرخص",
+      "orderdata": " بيانات الطلب تطور الوسطاء المرخصين فقط",
+      "addmarkting": " إضافة طلب التسويق",
+      "licensenumber": "لدي رقم ترخيص للإعلان",
+      "Backtomainpage": "العودة للرئيسية",
+      "based": "بناء على نظام الوساطة العقارية لا يمكن الاعلان في المنصات العقارية الا بوجود رخصة اعلان",
+      "addadverst": " ماهي رخصة الإعلان وكيفية الحصول عليها؟",
+      "Advertnumber": "رقم الرخصة",
+      "plzenter": "يرجى ادخال رقم رخصة اعلان صحيح  يبدأ برقم 7 ",
+      "groundfloor": "أرضي",
+      "Peaks": "علوي",
+      "more": "أكثر"
+    },
+    "unitsetting": {
+      "Rentalterms": "شروط التأجير",
+      "thereis": "لا داعي لطلب تأمين مسترد حيث أن برنامج حماية المستأجرين يقوم بتعويضكم في الحالات النادرة التي يتسبب بيها الضيف بتلفيات",
+      "require": "هل تطلب تأمين مسترد من المستأجرين عند الوصول؟",
+      "nodontask": "لا لا أطلب",
+      "YesAsk": "نعم أطلب",
+      "ref": "مبلغ التأمين المسترد",
+      "refundable": "   التأمين المسترد يدفعه المستأجرين عند الوصول ويسترجع عند المغادرة بعد التأكد من سلامة الممتلكات",
+      "havecondition": " هل لديك شروط أخرى للحجز"
+    }
+  },
+  "details_page": {
+    "ad_num": "رقم الأعلان",
+    "ad_date": "تاريخ الإعلان",
+    "unit_area": "مساحة ",
+    "fav_button": "المفضلة",
+    "share_button": "مشاركة",
+    "facebook_share": "مشاركة على الفيسبوك",
+    "whats_share": "مشاركة على الواتس",
+    "twitter_share": "مشاركة على تويتر",
+    "copy_url": "نسخ الرابط",
+    "reservation": "حجز",
+    "images_btns": {
+      "show_more": "عرض كل الصور",
+      "show_vids": "عرض الفيديو"
+    },
+    "details_title": "الوصف",
+    "similer_sec_title": "الإعلانات المشابهة",
+    "xs_more": "المزيد",
+    "xs_less": "أقل",
+    "details_tabs": {
+      "specifications_and_features": "المواصفات والميزات",
+      "features": "المواصفات",
+      "location_and_map": "الموقع والخريطة",
+      "location": "الموقع ",
+      "guest_reviews": "تقييمات المعلن",
+      "reviews": "تقييمات",
+      "specifications_and_features_tab": {
+        "bedrooms": "غرف النوم",
+        "living_rooms": "غرف الجلوس",
+        "bathrooms_nums": "عدد الحمامات",
+        "area": "المساحة",
+        "floor": "الطابق",
+        "last_update": "اخر تحديث"
+      },
+      "location_and_map_tab": {
+        "desc": "تظهر معلومات الموقع الدقيقة بعد تأكيد الحجز"
+      },
+      "guest_reviews_tab": {
+        "comment_title": "اترك تعليق",
+        "comment_desc": "لن يتم نشر البريد الالكتروني الحقول المطلوبة محددة",
+        "placeholder1": "عنوان التعليق",
+        "placeholder2": "تعليق",
+        "comment_btn": "ارسال تعليق",
+        "review_title": "ماهو تقييمك"
+      },
+      "calender_card": {
+        "booking_details": "تفاصيل الحجز",
+        "change_the_date": "غيّر التاريخ",
+        "date_of_arrival": "تاريخ الوصول",
+        "departure_date": "تاريخ المغادرة",
+        "time_of_arrival": "وقت الوصول",
+        "departure_time": "وقت المغادرة",
+        "service_fees": "رسوم الخدمة",
+        "total": "الإجمالي",
+        "choose": "اختر",
+        "change_date": "بإمكانك تعديل التاريخ",
+        "pay_now": "ستدفع الأن",
+        "Bookingsummary": "ملخص الحجز",
+        "Servicefees": "رسوم الخدمة ",
+        "Discountcode": "كود الخصم",
+        "apply": " تطبيق",
+        "Completereservation": "اكمل الحجز"
+      }
+    },
+    "details_card": {
+      "currency": "ريال",
+      "advertiser_name": "اسم المعلن",
+      "advertiser_broker": "صفة المعلن",
+      "ad_reference_number": "رقم مرجعي للإعلان",
+      "whatsapp_button": "واتس آب",
+      "phone_button": "مكالمة",
+      "report_button": "ابلاغ",
+      "chat_button": "محادثة",
+      "help_us": "هذا يساعدنا على تشغيل منصتنا وتقديم الخدمات مثل الدعم على مدار الساعة طوال الأسبوع. شامل ضريبة القيمة المضافة."
+    },
+    "time": {
+      "one_hour_ago": "منذ ساعة",
+      "two_hours_ago": "منذ ساعتين",
+      "hours_ago": "منذ {{count}} ساعة",
+      "days_ago": "منذ {{count}} يوم",
+      "minutes_ago": "{{count}} منذ دقائق ",
+      "seconds_ago": "منذ {{count}} ثواني",
+      "just_now": "الان"
+    }
+  },
+  "home": {
+    "FilterModal": {
+      "Filter_Factors": "عوامل التصفية",
+      "price_range": "نطاق السعر",
+      "rooms": "الغرف",
+      "office_type": "نوع المكتب",
+      "Features": "الميزات",
+      "Accessibility_Features": "ميزات سهولة الوصول",
+      "meansofcomfort": "وسائل الراحة",
+      "delete_all": "مسح الكل",
+      "show_all": "عرض الكل",
+      "Bathrooms": "الحمامات",
+      "Meetings": "الاجتماعات"
+    }
+  },
+  "loginmodal": {
+    "title": "أهلا بك على حساب الأعمال",
+    "title2": "أهلا بك على حساب الأفراد",
+    "title_two": "استكمال الكود على",
+    "title_three": "الرجاء إدخال الكود للمتابعة",
+    "choose_login_method": "اختر الطريقة التي تريد استلام الكود بها",
+    "sms_option": "رسالة نصية",
+    "whatsapp_option": "واتس آب",
+    "desc": "أدخل رقم هاتف الجوال لإنشاء حساب أو تسجيل الدخول.",
+    "input_label": "رقم هاتفك الجوال",
+    "submit_btn": "متابعة",
+    "submit_btn_2": "التحقق",
+    "hint": "سنقوم بإرسال رسالة إلى الرقم المدخل تحتوي على كود للمتابعة..",
+    "bold_hint": "تأكد من إدخال رقمك بشكل صحيح.",
+    "back_btn": "رجوع",
+    "seconds": "ثانية",
+    "message": "قم بإرسال رمز التحقق من جديد",
+    "sended_message": "لقد أرسلنا الكود برسالة إلى الرقم",
+    "error_message": "رمز التحقق غير صحيح. يرجى المحاولة مرة أخرى."
+  },
+  "topNav": {
+    "Addyouroffice": "أضف مكتبك على MAKTAB",
+    "controlPanel": "لوحة التحكم",
+    "Login": " تسجيل الدخول أعمال",
+    "Login2": "تسجيل الدخول أفراد"
+  },
+  "paymentpage": {
+    "Reviewandpayment": "   المراجعة والدفع",
+    "Cancellationandreturnspolicy": "سياسة الإلغاء و الإسترجاع",
+    "youCanCancel": "بإمكانك إلغاء او تأجيل الحجز مجاناً قبل تاريخ",
+    "Bookingpolicies": "سياسات وشروط الحجز",
+    "bookingconditions": "شروط الحجز (من قبل المضيف)",
+    "Cleaningtheplace": "نظافة المكان بعد الخروج والحفاظ على الممتلكات ",
+    "payingoff": "الدّفع",
+    "Paybycard": "ادفع عن طريق البطاقة",
+    "Paythefullamount": "دفع كامل المبلغ",
+    "Paynow": "ادفع الان",
+    "Reviewreservation": "مراجعة الحجز"
+  },
+  "creditCard": {
+    "cardNumber": "رقم البطاقة",
+    "expireddate": "تاريخ الانتهاء",
+    "cardname": " اسم صاحب البطاقة "
+  },
+  "about_us": {
+    "aboutus": "من نحن",
+    "tryhostig": "جرب استضيف من خلال",
+    "addoffice": "أضف مكتبك, رح نساعدك خطوة بخطوة.",
+    "reg_office": "سجل مكتبك",
+    "maktab": "مكتب"
+  }
+}

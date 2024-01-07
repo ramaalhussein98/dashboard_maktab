@@ -1,0 +1,72 @@
+.header_style {
+  text-align: center;
+  border-bottom: 1px solid #e8e8e8;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.price_div {
+  padding: 32px;
+}
+.filter_title {
+  font-weight: 500 !important;
+  font-size: 22px !important;
+}
+.officeTypeContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.btn_type_office {
+  width: 33.3%;
+  border: 1px solid #d2caca !important;
+  color: black;
+  padding: 16px !important;
+  border-radius: 12px !important;
+  max-width: 170px !important;
+  height: 120px !important;
+  margin: 10px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  align-items: initial !important;
+  text-align: initial !important;
+  flex-wrap: wrap;
+  &:hover {
+    border: 1px solid black !important;
+  }
+  .span2 {
+    color: #6e6b6b !important;
+    font-size: 18px;
+  }
+  .img1 {
+    width: 32px;
+  }
+}
+.btn_type_office.activeButton {
+  border: 1px solid black !important;
+}
+
+.boxBtnDeleteShow {
+  border-top: 1px solid #ebebeb;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  .delete {
+    color: black !important;
+  }
+  .show {
+    background-color: black !important;
+    border-radius: 12px !important;
+    color: white !important;
+    padding: 10px 30px !important;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .btn_type_office {
+    width: 44%;
+  }
+}

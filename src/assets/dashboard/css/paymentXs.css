@@ -1,0 +1,177 @@
+.backContainer {
+  padding: 0px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 64px;
+  font-weight: 600;
+  color: var(--green-color);
+}
+.iconBack {
+  position: absolute;
+  right: 2rem !important;
+  color: gray;
+  top: 1.2rem;
+  /* transform: rotate(180deg) !important; */
+}
+[lang="en"] .iconBack {
+  top: 1.2rem;
+  left: 2rem !important;
+  transform: rotate(0deg) !important;
+}
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+}
+.title_small {
+  font-size: 17px;
+  font-weight: 700;
+}
+.Box_loc_des {
+  display: flex;
+  align-items: flex-start;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 1rem;
+  .rate_loc {
+    flex: 1 1 0%;
+    margin-left: 5px;
+  }
+  .price {
+    width: 40%;
+    text-align: left;
+
+    span {
+      font-size: 15px;
+      font-weight: 500;
+      color: rgb(132, 132, 132);
+      margin-top: 5px;
+    }
+  }
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.spanGray {
+  color: rgb(132, 132, 132);
+  margin-right: 10px !important;
+}
+[lang="en"] .spanGray {
+  margin-left: 10px;
+  margin-right: 0px;
+}
+.bottomBoxFixed {
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  height: 81px;
+  background-color: rgb(248, 248, 248);
+  padding: 0px 25px;
+  z-index: 999;
+}
+.bottomBoxTwoFixed {
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  -moz-box-pack: justify;
+  justify-content: center;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  height: 81px;
+  background-color: rgb(248, 248, 248);
+  padding: 0px 25px;
+  z-index: 999;
+}
+.appomentColclousionBtn {
+  color: black !important;
+  display: flex;
+  font-size: 14px;
+  margin-right: 8px;
+}
+.copoleteBtn {
+  width: 198px !important;
+  height: 44px !important;
+  border-radius: 12px !important;
+  background-color: var(--main-color) !important;
+  color: white !important;
+  display: block !important;
+  margin: auto !important;
+}
+.BoxReservationXsCash {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 1;
+  max-height: 90vh;
+  bottom: 81px;
+  border-radius: 20px 20px 0px 0px;
+  position: fixed;
+  overflow: auto;
+}
+.BoxReservationXs {
+  height: 400px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 1;
+  max-height: 90vh;
+  bottom: 81px;
+  border-radius: 20px 20px 0px 0px;
+  position: fixed;
+}
+.slide-up-enter {
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.slide-up-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 300ms;
+}
+
+.slide-up-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slide-up-exit-active {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 300ms;
+}
+
+/* @media screen and (min-width: 300px) and (max-width: 768px) {
+ 
+
+} */
+.layoutBox {
+  background-color: rgb(13, 13, 16);
+  opacity: 0.24;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  display: block;
+  z-index: 0;
+}

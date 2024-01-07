@@ -1,0 +1,101 @@
+.boxBorder {
+  border: 1px solid #ebebeb;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 40px;
+  height: 60px;
+  justify-content: space-between;
+  padding: 10px;
+  position: relative;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.logo_box {
+  width: 150px;
+  margin-right: 20px;
+}
+[lang="en"] .logo_box {
+  margin-right: auto;
+  margin-left: 20px;
+}
+.d_flex_col {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100% !important;
+  cursor: pointer;
+}
+.d_flex_col::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #d8cdcd;
+  left: 8px;
+}
+
+.font_bold_purble {
+  font-weight: 700;
+  font-size: 15px;
+  color: black;
+  position: relative;
+}
+
+.font_gray {
+  color: gray;
+  font-size: 13px !important;
+  color: #a0a0a0;
+}
+.search_box {
+  background: var(--main-color);
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  margin-top: -6px;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  left: 5px;
+  /* margin-top: -6px; */
+}
+.paperContainer {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  width: 80%;
+  border-radius: 20px !important;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px;
+  text-align: center;
+  max-height: 185px;
+  overflow: auto;
+  z-index: 11;
+}
+.menuSelect {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+.menuSelect:hover {
+  background-color: #eee;
+}
+.menuSelect:last-child {
+  border-bottom: 0;
+}
+.boxScrolled {
+  position: sticky;
+  top: 0px;
+  z-index: 1234;
+  width: 100%;
+  background-color: white;
+  
+}
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  .boxBorder {
+    width: 70%;
+  }
+}

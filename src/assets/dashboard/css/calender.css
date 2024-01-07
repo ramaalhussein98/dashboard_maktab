@@ -1,0 +1,268 @@
+.fullCalenderParent {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.fc-daygrid-day-number {
+  color: black;
+  /* background-color: gray;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: white; */
+}
+
+.fc-daygrid-day.fc-day-today {
+  background-color: white !important;
+  border: 2px solid var(--main-color);
+}
+
+.fc-daygrid-event {
+  width: 80px;
+  height: 20px;
+  background-color: rgb(104, 104, 104);
+  border-radius: 5px;
+  text-align: center;
+  margin: auto !important;
+}
+
+.fc-col-header-cell-cushion {
+  display: inline-block;
+  padding: 14px 8px !important;
+  color: black;
+}
+
+.fc-toolbar-chunk {
+  display: block;
+  margin: auto;
+}
+
+.fc-day-past {
+  background-color: #e2e0e0;
+  cursor: not-allowed;
+  pointer-events: none;
+  color: #ccc;
+  opacity: 0.3;
+}
+
+.fc-button-primary {
+  background-color: transparent !important;
+  border: 0px !important;
+  color: black !important;
+}
+
+.fc-highlight {
+  background-color: rgb(225, 117, 117) !important;
+}
+
+.NumbersOfDaysBox {
+  display: flex;
+  flex-direction: column;
+  -moz-box-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  padding: 16px 32px;
+  border-start-start-radius: 12px;
+  border-start-end-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+  min-width: 300px;
+  width: 300px;
+  margin: auto;
+
+  .p1 {
+    font-weight: bold;
+  }
+}
+.btns_Box {
+  margin: 16px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .available_btn {
+    display: inline-flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    outline: 0px;
+    border: 0px;
+    margin: 0px 7px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: Tajawal;
+    line-height: 1.75;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: rgb(255, 255, 255);
+    background-color: var(--green-color) !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px,
+      rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    /* min-width: 100px; */
+    border-radius: 10px;
+  }
+
+  .busy_btn {
+    display: inline-flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    line-height: 1.75;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px,
+      rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: rgb(104, 104, 104);
+    font-weight: 700;
+    /* min-width: 100px; */
+
+    &:hover {
+      background-color: rgb(66, 66, 66);
+    }
+  }
+
+  .cancel_btn1 {
+    display: inline-flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    background-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: Tajawal;
+    line-height: 1.75;
+    text-transform: uppercase;
+    /* min-width: 64px; */
+    padding: 6px 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: var(--main-color);
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 10px;
+  }
+}
+
+.selecteddates {
+  background-color: red !important;
+}
+
+.left-cell-price {
+  position: absolute;
+  width: max-content;
+  top: 70px;
+  left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.right-cell-price {
+  position: absolute;
+  width: max-content;
+  top: 70px;
+  right: 10px;
+  /* Change left to right here */
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.span_price {
+  color: gray;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .fc-view-harness {
+    height: 441.926px !important;
+  }
+  .btns_Box {
+    .busy_btn {
+      font-size: 12px !important;
+    }
+    .available_btn {
+      font-size: 12px !important;
+    }
+    .cancel_btn1 {
+      font-size: 12px !important;
+    }
+  }
+
+  .fullCalenderParent {
+    width: 100%;
+  }
+
+  .fc-col-header-cell-cushion {
+    font-size: 10px;
+  }
+
+  .left-cell-price {
+    width: 20px;
+    top: 35px;
+    left: 5px;
+    font-size: 10px;
+  }
+
+  .right-cell-price {
+    width: 20px;
+    top: 35px;
+    right: 5px;
+    font-size: 10px;
+  }
+
+  .span_price {
+    font-size: 10px;
+  }
+
+  .fc-daygrid-event {
+    width: max-content;
+    font-size: 10px;
+  }
+}

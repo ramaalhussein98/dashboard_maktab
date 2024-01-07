@@ -1,0 +1,49 @@
+.LoginContainer {
+  margin: auto;
+  margin-top: 5rem;
+  width: 32rem;
+  padding: 3rem 4rem;
+  border-radius: 1rem;
+}
+.logoImg {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+.font_gray {
+  font-size: 20px;
+  color: gray;
+  margin-top: 1rem;
+  text-align: center;
+}
+.inputLogin {
+  border-bottom: 1px solid gray;
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 10px;
+  font-weight: 600;
+}
+.checkboxstyle {
+  margin-top: 1rem !important;
+  margin-right: 3rem;
+}
+.loginButton {
+  background-color: var(--green-color);
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  color: white;
+  padding: 10px 0px;
+  border-radius: 10px;
+  text-align: center;
+}
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .LoginContainer {
+    width: 100%;
+    padding: 1rem;
+
+  }
+}

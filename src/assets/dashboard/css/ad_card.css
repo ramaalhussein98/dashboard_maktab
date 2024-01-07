@@ -1,0 +1,95 @@
+.AdContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.slider_img_container {
+  margin-bottom: 12px;
+  aspect-ratio: 20/19;
+  /* padding: 95%; */
+  position: relative;
+  cursor: pointer;
+}
+[lang="en"] .slider_img_container {
+  direction: ltr !important;
+}
+.slider_img_container_auto {
+  aspect-ratio: auto;
+  margin-bottom: 12px;
+  position: relative;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  .d-flex {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+    .title {
+      font-weight: 500;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      word-break: break-all;
+      font-size: 18px;
+    }
+  }
+  .descrption {
+    color: #717171;
+  }
+  .price {
+    display: flex;
+    font-weight: 400;
+  }
+}
+
+/* card map sm screens  */
+.adCardMapContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 126px;
+  .cardContainer {
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+}
+.imgMapSmall {
+  width: 120px;
+  height: 120px;
+}
+.spanPriceType {
+  position: relative;
+  color: #717171 ;
+  font-size: 13px;
+  /* font-weight: 600; */
+  margin-left: 9px;
+}
+.spanPriceType::after {
+  content: "";
+  position: absolute;
+  left: -9px;
+  bottom: 0;
+  width: 1px;
+  background-color: #717171;
+  height: 100%;
+}
+.spanPriceType:last-child::after {
+  display: none;
+}
+[lang="en"] .spanPriceType {
+  margin-left: initial;
+  margin-right: 9px;
+}
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .AdContainer {
+    width: 90%;
+    margin: auto;
+  }
+}

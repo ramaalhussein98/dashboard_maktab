@@ -1,0 +1,290 @@
+.d_flex_spaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.MuiTableCell-root {
+  p {
+    color: gray;
+  }
+  span {
+    font-weight: bold;
+  }
+}
+.btnAddContarct {
+  background-color: var(--green-color) !important;
+  color: white !important;
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 6rem;
+  margin-top: 2rem;
+  margin-right: auto;
+  display: block;
+  font-weight: 500;
+
+}
+[lang= "en"] .btnAddContarct {
+  margin-right: initial;
+  margin-left: auto;
+}
+.createContact {
+  background-color: var(--green-color) !important;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 10px;
+}
+.color_gray {
+  color: gray;
+  margin-bottom: 1rem;
+  font-size: 15px;
+}
+.BoxBtnCashAndReserve {
+  display: flex;
+  flex-direction: column;
+  .button1 {
+    width: 100%;
+    text-align: center;
+    color: var(--green-color);
+    border: 1px solid var(--green-color);
+    border-radius: 5px;
+    /* width: 10rem; */
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+}
+.confirmBtn {
+  background-color: var(--green-color);
+  color: white;
+  padding: 8px 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+.cancelBtn {
+  color: var(--green-color);
+  border: 1px solid var(--green-color);
+  padding: 8px 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+.calenderIcon {
+  font-size: 15px !important;
+  color: gray;
+  margin-left: 5px;
+}
+.contarctBoxes {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  .divContract {
+    width: 24%;
+    padding: 15px 10px;
+    cursor: pointer;
+    position: relative;
+    height: 90px;
+    .p1 {
+      color: gray;
+    }
+    .svg1 {
+      position: absolute;
+      left: 1rem;
+      top: 1rem;
+      color: black;
+      font-size: 2rem;
+    }
+  }
+}
+[lang="en"] .contarctBoxes .divContract .svg1 {
+  right: 1rem !important;
+  left: auto;
+}
+
+.modal_form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ModalInputsBox {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  .div_50 {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    .input1 {
+      width: 100%;
+      background-color: #dcf4dc;
+      padding: 5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      outline: none;
+    }
+    .select1 {
+      width: 100%;
+      background-color: #dcf4dc;
+      padding: 5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  .div_100 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .textarea1 {
+      width: 100%;
+      background-color: #dcf4dc;
+      padding: 5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      outline: none;
+    }
+  }
+}
+.ModalInputsBox2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  .div_33 {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    .input1 {
+      width: 100%;
+      background-color: #dcf4dc;
+      padding: 5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      outline: none;
+    }
+    .select1 {
+      width: 100%;
+      background-color: #dcf4dc;
+      padding: 5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  .div_100 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .textarea1 {
+      width: 100%;
+      background-color: #dcf4dc;
+      padding: 5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      outline: none;
+    }
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  .contarctBoxes {
+    .divContract {
+      width: 200px !important;
+      margin: 0px 10px !important;
+    }
+  }
+  .ModalInputsBox {
+    .div_50 {
+      width: 100%;
+      input {
+        width: 100%;
+      }
+      select {
+        width: 100%;
+      }
+    }
+    .div_100 {
+      width: 100%;
+      textarea {
+        width: 100%;
+      }
+    }
+  }
+}
+.leftIcon {
+  cursor: pointer;
+  border: 1px solid #eee;
+  padding: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.rightIcon {
+  cursor: pointer;
+  border: 1px solid #eee;
+  padding: 4px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.contactNumberBox {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  cursor: pointer;
+  .green {
+    color: var(--main-color);
+  }
+}
+.paperContractSelect {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 100vh;
+  overflow: auto;
+  margin-left: 1rem;
+}
+[lang="en"] .paperContractSelect {
+  margin-left: 0rem;
+  margin-right: 1rem;
+}
+.selectContarct {
+  background-color: #eee !important;
+  position: relative;
+  &::before {
+    content: "''";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 4px;
+    background-color: var(--main-color);
+  }
+}
+.TableBoxContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  div {
+    color: gray;
+  }
+}
+.showAllBills {
+  background-color: rgb(243, 242, 242);
+  text-align: center;
+  padding: 1rem;
+  color: var(--main-color);
+}
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+}
+.MuiTablePagination-selectLabel {
+  display: none;
+}
+.MuiTablePagination-select {
+  display: none !important;
+}
+.MuiSelect-icon {
+  display: none !important;
+}

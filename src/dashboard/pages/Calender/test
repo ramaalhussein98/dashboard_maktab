@@ -1,0 +1,165 @@
+import React, { useState } from "react";
+import FullCalendar from "@fullcalendar/react";
+import dayGridPlugin from "@fullcalendar/daygrid";
+import interactionPlugin from "@fullcalendar/interaction";
+import allLocales from "@fullcalendar/core/locales-all";
+import "./calender.css";
+const Calender = () => {
+  const [showBoxDays, setShowBoxDays] = useState(false);
+
+  const [selectedDates, setSelectedDates] = useState([]);
+  const [choseDates, setChosenDates] = useState([]);
+  // const [clickedDate, setClickedDate] = useState(null);
+  const [events, setEvents] = useState([]);
+  // const newSelectedDates = [];
+  const handleDateSelect = (info) => {
+    const start = info.start;
+    const currentDate = new Date();
+    const end = info.end;
+    if (start >= currentDate) {
+      // Calculate the number of selected days
+      const diffInDays = Math.ceil((end - start) / (1000 * 60 * 60 * 24));
+      console.log(info);
+      // Create an array of selected dates
+      for (let i = 0; i < diffInDays; i++) {
+        const selectedDate = new Date(start);
+        selectedDate.setDate(start.getDate() + i);
+        const isoDateString = selectedDate.toISOString().split("T")[0];
+        // Check if the selected date is not already in the selectedDates array
+        if (!selectedDates.includes(isoDateString)) {
+          // selectedDates.push(isoDateString);
+          setSelectedDates((prev) => [...prev, isoDateString]);
+        }
+      }
+
+      // Update the selectedDates state by appending the new selections
+      // setChosenDates((prevSelectedAvailableDates) => [
+      //   ...prevSelectedAvailableDates,
+      //   ...newSelectedDates,
+      // ]);
+      // setSelectedDays(chosedates.length + newSelectedDates.length);
+      setShowBoxDays(true);
+    }
+  };
+  console.log("selected:", selectedDates);
+  console.log("chosen:", choseDates);
+  const handleSaveChanges = () => {
+    const result = new Set([...selectedDates, ...choseDates]);
+    console.log("res", result);
+    setShowBoxDays(false);
+    const updatedEvents = Array.from(result).map((date) => ({
+      date,
+      title: "مشغول",
+      className: "busy-day selected",
+    }));
+    setEvents(updatedEvents);
+    setChosenDates(Array.from(result));
+    setSelectedDates([]);
+  };
+
+  const handleToggleAvailability = () => {
+    setShowBoxDays(
+      selectedDates.filter((item) => !commonItems.includes(item)).length === 0
+        ? false
+        : true
+    );
+
+    const commonItems = selectedDates.filter((item) =>
+      choseDates.includes(item)
+    );
+    const result = [
+      // ...selectedDates.filter((item) => !commonItems.includes(item)),
+      ...choseDates.filter((item) => !commonItems.includes(item)),
+    ];
+    setChosenDates(result);
+    console.log("result", result);
+    const updatedEvents = result.map((date) => ({
+      date,
+      title: "مشغول",
+      className: "busy-day selected",
+    }));
+    setEvents(updatedEvents);
+    setSelectedDates(
+      selectedDates.filter((item) => !commonItems.includes(item))
+    );
+  };
+  const getPriceForDate = (date) => {
+    // You can implement your logic here to fetch the price for the given date.
+
+    const hardcodedPrices = {
+      "2023-09-28": "28",
+      "2023-09-30": "30",
+      "2023-09-21": "21",
+    };
+
+    return hardcodedPrices[date];
+  };
+
+  const handleDayCellContent = (arg) => {
+    const isoDateString = arg.date.toISOString().split("T")[0];
+    const price = getPriceForDate(isoDateString);
+
+    return (
+      <>
+        <div className="cell-content">
+          <span className="cell-date">{arg.dayNumberText}</span>
+          {price && (
+            <span className="cell-price">
+              {price} <span>ر.س</span>
+            </span>
+          )}
+        </div>
+      </>
+    );
+  };
+  return (
+    <div style={{ width: "90%", margin: "auto", position: "relative" }}>
+      <FullCalendar
+        className="calendar-container"
+        plugins={[dayGridPlugin, interactionPlugin]}
+        initialView="dayGridMonth"
+        selectable={true}
+        select={handleDateSelect}
+        events={events}
+        eventClassNames={(arg) => arg.event.extendedProps.className}
+        locales={allLocales}
+        locale="ar"
+        headerToolbar={{
+          start: "prev",
+          center: "title",
+          end: " next",
+        }}
+        timeZone="locale"
+        unselectCancel=".calendar-container"
+        dayCellContent={handleDayCellContent}
+      />
+      {showBoxDays && (
+        <div className="NumbersOfDaysBox">
+          <p>تم تحديد {selectedDates.length} ليالي</p>
+          <div className="btns_Box">
+            {choseDates.length > 0 && (
+              <button
+                className="available_btn"
+                onClick={handleToggleAvailability}
+              >
+                إتاحة
+              </button>
+            )}
+            {!selectedDates.every((item) => choseDates.includes(item)) && (
+              <button className="busy_btn" onClick={handleSaveChanges}>
+                إشغال
+              </button>
+            )}
+            <button
+              className="cancel_btn"
+              onClick={() => setShowBoxDays(false)}
+            >
+              إلغاء
+            </button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+export default Calender;

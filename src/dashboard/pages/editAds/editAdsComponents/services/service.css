@@ -1,0 +1,15 @@
+/* Custom style for the confirm button */
+.swal-confirm-button {
+  background-color: var(
+    --green-color
+  ) !important; /* Change the background color */
+  color: white !important; /* Change the text color */
+  /* Add other styles as needed */
+}
+
+/* Custom style for the cancel button */
+.swal-cancel-button {
+  background-color: red !important; /* Change the background color */
+  color: white !important; /* Change the text color */
+  /* Add other styles as needed */
+}
